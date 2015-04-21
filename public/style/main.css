@@ -17,7 +17,8 @@ h2,h3,h4,h5,h6 {
 h1{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
+  padding: 5px;
 }
 .row {
   display: block;
@@ -32,6 +33,7 @@ h1{
   display: block;
   float: left;
   margin: 5px;
+  margin-left: 20px;
   padding: 2px;
   position: relative;
   width: 46%;
@@ -42,6 +44,7 @@ h1{
   display: block;
   float: left;
   margin: 5px;
+  margin-right: 20px;
   padding: 2px;
   position: relative;
   width: 30%;
@@ -51,19 +54,20 @@ h1{
   display: block;
   float: left;
   margin: 5px;
+  margin-left: 18px;
   padding: 2px;
   position: relative;
   width: 22%;
 }
 
 .shadow {
-  -webkit-box-shadow: 1px 1px 1px 1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    1px 1px 1px 1px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         1px 1px 1px 1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 0px 0px 126px 47px rgba(56,56,56,1);
+  -moz-box-shadow: 0px 0px 126px 47px rgba(56,56,56,1);
+  box-shadow: 0px 0px 126px 47px rgba(56,56,56,1);
 }
 
 .close {
-  color: darkgray;
+  color: grey;
   margin-top: 20px;
   border: 1px dashed darkgray;
   font-weight: bold;
@@ -74,12 +78,13 @@ h1{
   padding: 5px;
 }
 #wrapper{
+  padding: 20px;
   height: 90%;
   margin: 5px auto;
   /*background-color: white;*/
   /*opacity:.5;*/
   border:solid grey;
-  
+
 }
 #one{
   color: purple;
