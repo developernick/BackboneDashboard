@@ -3,23 +3,32 @@
 body {
   font-family: 'Roboto', 'Calibri', 'Lucida-Sans', 'Arial', sans-serif;
   margin: 1%;
+  background-image:url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/9/97/97514/tri-r5_rastr-01-o.jpg?1403518000");
+
+
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Droid Serif', 'Times New Roman', 'Times', serif;
+h2,h3,h4,h5,h6 {
+  font-family: 'Lato', sans-serif;
   color: rgba(10,60,150, 0.8);
   text-shadow: 1px 4px 6px #fff, 0 0 0 #000, 1px 4px 6px #def;
   margin-top: 2px;
   margin-bottom: 2px;
 }
-
+h1{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
 .row {
   display: block;
   margin: auto;
   clear: both;
   position: relative;
+
 }
 
 .block-half {
+  background-color: rgba(169, 169, 169, .6);
   display: block;
   float: left;
   margin: 5px;
@@ -29,6 +38,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .block-third {
+  background-color: rgba(169, 169, 169, .6);
   display: block;
   float: left;
   margin: 5px;
@@ -63,6 +73,43 @@ h1,h2,h3,h4,h5,h6 {
   position: relative;
   padding: 5px;
 }
+#wrapper{
+  height: 90%;
+  margin: 5px auto;
+  /*background-color: white;*/
+  /*opacity:.5;*/
+  border:solid grey;
+  
+}
+#one{
+  color: purple;
+  opacity: 3;
+}
+#two{
+  color: green;
+}
+#three{
+  border: 5px solid black;
+}
+#four{
+  border: 3px dashed darkgray;
+}
+#five{
+  border: 2px solid grey;
+}
+#six{
+  background-color: red;
+}
+#seven{
+  background-color: brown;
+}
+#eight{
+  background-color: pink;
+}
+#nine{
+  background-color: blue;
+}
+
 
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
