@@ -9,16 +9,17 @@ body {
 }
 h2,h3,h4,h5,h6 {
   font-family: 'Lato', sans-serif;
-  color: rgba(10,60,150, 0.8);
-  text-shadow: 1px 4px 6px #fff, 0 0 0 #000, 1px 4px 6px #def;
+  color: rgba(24, 35, 55, 0.8);
+  text-shadow: 1px 4px 6px #707070, 0 0 0 #000, 1px 4px 6px #def;
   margin-top: 2px;
   margin-bottom: 2px;
+  text-align: center;
 }
 h1{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 40px;
-  padding: 5px;
+  font-size: 50px;
+  margin-top: 20px;
 }
 .row {
   display: block;
@@ -78,7 +79,7 @@ h1{
   padding: 5px;
 }
 #wrapper{
-  padding: 20px;
+  padding: 10px;
   height: 90%;
   margin: 5px auto;
   /*background-color: white;*/
@@ -103,16 +104,16 @@ h1{
   border: 2px solid grey;
 }
 #six{
-  background-color: red;
+  background-color: rgb(173, 152, 185);
 }
 #seven{
-  background-color: brown;
+  background-color: rgb(47, 168, 189);
 }
 #eight{
-  background-color: pink;
+  background-color: rgb(154, 155, 153);
 }
 #nine{
-  background-color: blue;
+  background-color: rgb(215, 209, 187);
 }
 
 

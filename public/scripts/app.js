@@ -1,6 +1,7 @@
 $(document).ready(function(event) {
 
   //             -_-_-_-_-_-_-_-Model (cardModel)-_-_-_-_-_-_-_-
+
   var cardModel = Backbone.Model.extend({
     initialize: function() {
     console.log("Hey, a card is here!");
@@ -8,6 +9,7 @@ $(document).ready(function(event) {
   });
 
   //          -_-_-_-_-_-_-_-Collection (cardList)-_-_-_-_-_-_-_-
+
   var cardList = Backbone.Collection.extend({
     initialize: function() {
         console.log("Doctor Leo Marvin!!");
@@ -19,11 +21,13 @@ $(document).ready(function(event) {
   list.fetch();
   list.models.length
   list.create({
-    title:"Quotes of the day"
+    title:"Quotes of the day",
     message:"Baby steps...Baby steps through the collection"
   });
 
-  //          -_-_-_-_-_-_-_-View (halfCardView)-_-_-_-_-_-_-_-
+  //              -_-_-_-_-_-_-_-View-_-_-_-_-_-_-_-
+  //         -_-_-_-_-_-_-_-halfCardView-_-_-_-_-_-_-_-
+
     var halfCardView = Backbone.View.extend({
       tagName: "article",
       className: "block-half shadow",
@@ -39,6 +43,7 @@ $(document).ready(function(event) {
         $(row).append(this.$el);
       }
     });
+    //        -_-_-_-_-_-_-_-ThirdCardView-_-_-_-_-_-_-_-
 
   var thirdCardView = Backbone.View.extend({
     tagName: 'article',
@@ -54,6 +59,7 @@ $(document).ready(function(event) {
       $(row).append(this.$el);
     },
   });
+  //           -_-_-_-_-_-_-_-quarterCardView-_-_-_-_-_-_-_-
 
   var quarterCardView = Backbone.View.extend({
     tagName: 'article',
@@ -69,6 +75,7 @@ $(document).ready(function(event) {
       $(row).append(this.$el);
     },
   });
+//           -_-_-_-_-_-_-_-Creating Cards-_-_-_-_-_-_-_-
 
 //               _-_-_-_-_-_-Half Card_-_-_-_-_-_-
 
